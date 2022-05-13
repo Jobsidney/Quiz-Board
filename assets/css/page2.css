@@ -1,6 +1,5 @@
 *{
-    margin-left: 10px;
-    margin-right: 10px;
+  
     margin-top: 10px;
     
 
@@ -56,6 +55,40 @@ padding-left: 9%;
     font-weight: bold;
     margin-top: 6%;
 }
-submit{
+.submit{
     background-color: #BF1768;
+    width: max-content;
+    justify-content: center;
+    padding: 9px;
+    padding-top: 0;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 3%;
+}
+.submit>button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+footer{
+    margin-left: 0;
+    height: 180px;
+    background-color: #061231;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+table>th,tr,td{
+    text-align: left;
+    padding-top: 6px;
+    font-weight: 200;
+    color: white;
+    opacity: 0.6;
+}
+table>th{
+    text-align: left;
+    padding-top: 15px;
+    color: white;
 }
