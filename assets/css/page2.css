@@ -1,0 +1,34 @@
+*{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-image: url('../images/human7.jpg');
+    background-repeat:no-repeat;
+    background-position: 30px 120px;
+
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: sticky;
+}
+.btn2{
+    background-color: #d1ced0;
+    color: #1b3474;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn2>div{
+    color: #BF1768;
+   
+}
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+}
