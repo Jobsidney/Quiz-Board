@@ -7,6 +7,7 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: Poppins;
 }
 #header{
     margin-left: 0.8%;
@@ -24,6 +25,7 @@ body{
     color: white;
     font-weight: bolder;
     box-shadow: 2px 2px 3px 3px #162959;
+    font-family: Poppins;
 }
 #navBar>ul{
     display: flex;
@@ -92,6 +94,7 @@ body{
 }
 
 .picDescr{
+    font-family: Prompt;
     color: #162959;
     font-weight: bolder;
     font-size: 20px;
@@ -108,15 +111,22 @@ body{
 .btn2{
     margin-top: 40px;
     background-color: #BF1768;
-    width: fit-content;
+    width:max-content;
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    
+
     border-radius: 30px;
     color: white;
     font-weight: bold;
     font-size: 18px;
+}
+.btn2:hover{
+    background-color: green;
+  
+    opacity: 0.6;
+    transform: scale(1);
+    transition: 1s;
 }
 .examText{
     color: #162959;
@@ -136,6 +146,7 @@ hr{
     margin-right: 10%;
 }
 #examSec{
+    font-family: Poppins;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 10%;
@@ -159,7 +170,7 @@ table>th{
     padding-top: 15px;
     color: white;
 }
-#examSec>a{
+.btn2>a{
     text-decoration: none;
     color: white;
 }

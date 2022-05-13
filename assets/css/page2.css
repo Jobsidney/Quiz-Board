@@ -2,15 +2,20 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
+    
+
+}
+body{
     background-image: url('../images/human7.jpg');
     background-repeat:no-repeat;
     background-position: 30px 120px;
-
+    background-attachment: fixed;
+    
 }
 #header{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     position: sticky;
 }
 .btn2{
@@ -31,4 +36,26 @@
 hr{
     margin-left: 5%;
     margin-right: 5%;
+}
+.Questions{
+
+display: flex;
+flex-direction: column;
+padding-left: 9%;
+
+
+   
+}
+.cards{
+    background-color: #d1ced0;
+    padding: 10px;
+    opacity: 0.8;
+    border-radius: 10px;
+    min-width: auto;
+    max-width: 50vw;
+    font-weight: bold;
+    margin-top: 6%;
+}
+submit{
+    background-color: #BF1768;
 }
