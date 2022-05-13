@@ -72,6 +72,25 @@ padding-left: 9%;
     color: white;
     font-weight: bolder;
 }
+button:hover{
+    background-color: green;
+    
+}
+.submit:hover{
+    background-color: green;
+    
+}
+#Results{
+    background-color: rgb(10, 10, 10);
+    width: 300px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    font-family: Prompt;
+}
 footer{
     margin-left: 0;
     height: 180px;
