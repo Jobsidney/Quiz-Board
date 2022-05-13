@@ -55,6 +55,24 @@ padding-left: 9%;
     font-weight: bold;
     margin-top: 6%;
 }
+.cards>div{
+    background-color: rgb(173, 169, 169);
+    border-radius: 20px;
+    height: max-content;
+    padding: 5px;
+}
+.cards>div:hover{
+    background-color: rgb(235, 63, 57);
+}
+.cards>div[valid]:checked{
+    background-color: rgb(14, 119, 28);
+}
+.cards>div label{
+    cursor: pointer;
+    
+}
+
+
 .submit{
     background-color: #BF1768;
     width: max-content;
