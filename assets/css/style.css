@@ -1,4 +1,142 @@
 *{
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
     padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    margin-left: 0.8%;
+    margin-right: 0.8%;
+    display: flex;
+    justify-content: space-between;
+}
+#Logo{
+    
+    padding-top: 15px;
+    border-radius: 30px 0px 30px 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #162959;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 2px 2px 3px 3px #162959;
+}
+#navBar>ul{
+    display: flex;
+}
+#navBar>ul>li{
+    list-style: none;
+    padding-left: 15px;
+    margin-right: 2px;
+    margin-top: 2px;
+    font-size: 20px;
+    color: #162959;
+    font-weight: bolder;
+    
+}
+#navBar>ul>li>a{
+    text-decoration: none;
+    
+}
+#navBar>ul>li>button{
+    font-size: 15px;
+    margin-top: 0px;
+    border: none;
+    background-color: #BF1768;
+    border-radius: 30px;
+    padding:8px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.AfterNav{
+    margin-left: 0.8%;
+    margin-right: 0.8%;
+    color: #162959;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.pictureWord{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.pictureWord>h1>span{
+    color: #BF1768;
+}
+.btn{
+    margin-top: 40px;
+    background-color: #BF1768;
+    width: fit-content;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+}
+#image>img{
+    width: 120%;
+    margin-left: 20px;
+    margin-top: 0;
+
+}
+
+.picDescr{
+    color: #162959;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.picDescr>span{
+    color:#BF1768;
+    
+}
+.card>img{
+    width: 25%;
+    max-width: 250px;
+    min-width: 250px;
+}
+.btn2{
+    margin-top: 40px;
+    background-color: #BF1768;
+    width: fit-content;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.examText{
+    color: #162959;
+    font-weight:400;
+    font-size: 18px;
+
+}
+.offerCourse{
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#examSec{
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+footer{
+    height: 180px;
+    background-color: #061231;
 }
