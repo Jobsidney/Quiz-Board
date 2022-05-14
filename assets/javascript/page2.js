@@ -1,5 +1,4 @@
-const question=['Answ1','Answ2','Answ3','Answ4','Answ5','Answ6']
-const checkedBox=[];
+
 
 
 // function doResults() {
@@ -7,14 +6,39 @@ const checkedBox=[];
     
 // }
 
-function doResults() {
-    for (let i = 1;i<6;i++) {
-        if (document.getElementsByName('Answ${i}').value==true) {
-            checkedBox.push('true');
-            i++;          
-        }    
+// function doResults() {
+//     for (let i = 0;i<6;i++) {
+//         if (document.getElementsByName('Answ${i}'===true)){
+//             checkedBox.push(true);         
+//         } 
+        
+//     }
+    
+// }
+
+function doResults(){
+    var results=0;
+    if(document.getElementById('a').checked){
+        results++;
     }
-    document.getElementById('outResults').innerHTML=checkedBox.length;
+    if(document.getElementById('f').checked){
+        results++;
+    }
+    if(document.getElementById('k').checked){
+        results++;
+    }
+    if(document.getElementById('p').checked){
+        results++;
+    }
+    if(document.getElementById('q').checked){
+        results++;
+    }
+    if(document.getElementById('s').checked){
+        results++;
+    }
+    
+    finalResults=Math.ceil((results/6)*100)
+    var display=(' '+ finalResults + '%')
+    document.getElementById('outResults').innerHTML=display;
+
 }
-
-
