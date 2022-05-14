@@ -174,3 +174,178 @@ table>th{
     text-decoration: none;
     color: white;
 }
+
+
+
+@media screen and (max-width:700px) {
+    #Logo{
+    
+        padding-top: 15px;
+        border-radius: 30px 0px 30px 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #162959;
+        color: white;
+        font-weight: bolder;
+        box-shadow: 2px 2px 3px 3px #162959;
+        font-family: Poppins;
+    }
+  
+    #navBar>ul>li{
+        list-style: none;
+        padding-left: 5px;
+        margin-right: 2px;
+        margin-top: 2px;
+        font-size: 10px;
+        color: #162959;
+        font-weight: bolder;
+        
+    }
+    #navBar>ul>li>button{
+        font-size: 12px;
+        
+    }
+    .AfterNav{
+        margin-left: 5%;
+        margin-right: 5%;
+       
+    }
+    .pictureWord{
+        font-size: 10px;
+        text-align: justify;
+      
+    }
+    #image>img{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 0;
+    
+    }
+    
+    .picDescr{
+        
+        font-size: 12px;
+    }
+
+    .card>img{
+        width: 25%;
+        max-width: 250px;
+        min-width: 180px;
+    }
+    .examText{
+        color: #162959;
+        font-weight:400;
+        font-size: 18px;
+    
+    }
+    .offerCourse{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    hr{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #examSec{
+        font-family: Poppins;
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-bottom: 10%;
+    }
+    footer{
+        padding-left: 5px;
+      
+   
+    }
+
+   
+}
+
+@media screen and (min-width:701px) {
+    #Logo{
+    
+        padding-top: 15px;
+        border-radius: 30px 0px 30px 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #162959;
+        color: white;
+        font-weight: bolder;
+        box-shadow: 2px 2px 3px 3px #162959;
+        font-family: Poppins;
+    }
+  
+    #navBar>ul>li{
+        list-style: none;
+        padding-left: 20px;
+        margin-right: 2px;
+        margin-top: 2px;
+        font-size: 20px;
+        color: #162959;
+        font-weight: bolder;
+        
+    }
+    #navBar>ul>li>button{
+        font-size: 12px;
+        
+    }
+    .AfterNav{
+        margin-left: 5%;
+        margin-right: 5%;
+       
+    }
+    .pictureWord{
+        font-size: 15px;
+        text-align: justify;
+      
+    }
+    #image>img{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 0;
+    
+    }
+    
+    .picDescr{
+        
+        font-size: 15px;
+    }
+
+    .card>img{
+        width: 25%;
+        max-width: 250px;
+        min-width: 190px;
+    }
+    .examText{
+        color: #162959;
+        font-weight:400;
+        font-size: 18px;
+    
+    }
+    .offerCourse{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    hr{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #examSec{
+        font-family: Poppins;
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-bottom: 10%;
+    }
+    footer{
+        padding-left: 5px;
+   
+    }
+
+   
+}

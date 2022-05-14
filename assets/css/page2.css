@@ -135,3 +135,57 @@ table>th{
     padding-top: 15px;
     color: white;
 }
+
+
+@media screen and (max-width:800px){
+
+    body{
+        background-image: url('../images/human7.jpg');
+        background-repeat:no-repeat;
+        background-position: 0px 120px;
+        background-attachment: fixed;
+        
+    }
+    .btn2{
+        padding-left: 20px;
+        padding-right: 30px;
+        border-radius: 30px;
+        padding-bottom: 0px;
+        padding-top: 3px;
+        font-size: small;
+    }
+.Questions{
+
+display: flex;
+flex-direction: column;
+padding-left: 9%;
+
+
+   
+}
+.cards{
+    background-color: #d1ced0;
+    padding: 10px;
+    opacity: 0.8;
+    border-radius: 10px;
+    min-width: auto;
+    max-width: 75vw;
+    font-weight: bold;
+    margin-top: 6%;
+}
+#Results{
+  
+    font-family: Prompt;
+}
+#Results>#outResults{
+   
+    font-size: large;
+
+}
+table>th,tr,td{
+    font-size: small;
+}
+
+
+    
+}
