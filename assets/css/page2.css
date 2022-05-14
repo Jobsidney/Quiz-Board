@@ -109,6 +109,12 @@ button:hover{
     color: white;
     font-family: Prompt;
 }
+#Results>#outResults{
+    color: #BF1768;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
 footer{
     margin-left: 0;
     height: 180px;

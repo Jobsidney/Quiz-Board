@@ -38,7 +38,21 @@ function doResults(){
     }
     
     finalResults=Math.ceil((results/6)*100)
-    var display=(' '+ finalResults + '%')
+    var display;
+    output();
+    function output(){
+        if (finalResults>=80) {
+            display=(' '+ finalResults + '%'+" "+"Excellent")
+            
+        }
+        else if(finalResults>=50){
+            display=(' '+ finalResults + '%'+" "+"Fair")
+        }
+        else{
+            display=(' '+ finalResults + '%'+" "+"Poor 'Retake!'")
+        }
+    }
+    
     document.getElementById('outResults').innerHTML=display;
 
 }
