@@ -29,19 +29,19 @@
         <div class="cards">
             1. What command diplay pop up on screen?
         <div>
-            <input type="radio" name="Ans1" id="a" class="answer">
+            <input type="radio" name="Answ1" id="a" value="true" class="answer">
             <label for="a" id="a_text">hello</label>
         </div>
         <div>
-            <input type="radio" name="Ans1" id="b" class="answer">
+            <input type="radio" name="Answ1" id="b" value="false" class="answer">
             <label for="b" id="b_text">hello</label>
         </div>
         <div>
-            <input type="radio" name="Ans1" id="c" class="answer">
+            <input type="radio" name="Answ1" id="c" value="false" class="answer">
             <label for="c" id="c_text">hello</label>
         </div>
         <div>
-            <input type="radio" name="Ans1" id="d" class="answer">
+            <input type="radio" name="Answ1" id="d" value="false" class="answer">
             <label for="d" id="d_text">hello</label>
         </div>
         </div>
@@ -134,10 +134,10 @@
         </div>
        
         <div class="submit">
-            <button>Submit</button>
+            <button id="submit_btn" onclick="doResults()">Submit</button>
         </div>
         <div id="Results">
-            RESULTS :
+            RESULTS : <span id="outResults"></span>
         </div>
     </div>
     <footer>
@@ -193,6 +193,6 @@
             </table>
         </div>
     </footer>
-   
+   <script src="../javascript/page2.js"></script>
 </body>
 </html>
