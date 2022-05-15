@@ -1,7 +1,7 @@
 # QUIZ-BORD(quizler)
 ***
 ## DESCRIPTION
-Quiz bord  is a website that Brings a simple tech solution to student. This helps them Learn programming languages and Taking Exam questions to test their learning progress. The website is well design and user friendly ranging from design, color and the logic part that is implemented with Javascript(calculation of marks).
+Quiz bord  is a website that Brings a simple tech solution to student. This helps them Learn programming languages and Taking Exam questions to test their learning progress. The website is well designed and user friendly ranging from colors and the logic part that is implemented with Javascript(calculation of marks).
  example:
 <img src="./assets/images/quiz1.png">
 <br  />
@@ -9,11 +9,11 @@ Quiz bord  is a website that Brings a simple tech solution to student. This help
 Here is a working demonstration of this Web page: https://jobsidney.github.io/Quiz-Board/
 <br  />
 
-To take the Exam Test Scroll through the page and CLick the `Take your Test` button as Illustrated below:
+To take the Exam Test Scroll through the page and Click the `Take your Test` button as Illustrated below:
 <img src="./assets/images/takeTest.png">  
 
 <br  />
-After taking the Test press submit to see your scores and comment of the TEST you've taken.
+After taking the Test press submit to see your scores and comments of the TEST you've taken.
 Example:
 <img src="./assets/images/submit.png">
 <br  />
@@ -21,8 +21,8 @@ Example:
 ## [Features](https://jobsidney.github.io/Quiz-Board/)
 
 - Well Designed Interface(UI).
-- intensive use of pure css for design
-- Vannilla Javascript
+- intensive use of Vanilla css for design
+- Javascript
 - HTML5
 - Switch to multiple pages via links and buttons
 - Responsive to variety of devices like mobile,tablet and PC
