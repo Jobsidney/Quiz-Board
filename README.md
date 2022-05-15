@@ -99,6 +99,8 @@ finalResults=Math.ceil((results/6)*100)
         }
 ```
 ## ProgramDesign
+This website was designed by the author using Figma Design Software.
+you can View the design from this link: https://www.figma.com/file/hzVAujIPGgXQsvMfznmmF1/Quiz-WEB?node-id=0%3A1
 
 ## PROJECT AUTHOR
 - Jobsidney
