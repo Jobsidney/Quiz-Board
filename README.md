@@ -98,6 +98,8 @@ finalResults=Math.ceil((results/6)*100)
             display=(' '+ finalResults + '%'+" "+"Fair")
         }
 ```
+## ProgramDesign
+
 ## PROJECT AUTHOR
 - Jobsidney
 - [<img style="border: 1px solid white;" src="./assets/images/job.png">](https://github.com/Jobsidney/)
