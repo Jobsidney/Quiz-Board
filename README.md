@@ -14,9 +14,9 @@ After taking the Test press submit to see your scores and comment of tHE TEST yo
 Example:
 <img src="./assets/images/submit.png">
 <br  />
-## The Site:
+## The_Site:
 Here is a working demonstration of this Web page: https://jobsidney.github.io/Quiz-Board/
-***
+
 ## [Features](https://jobsidney.github.io/Quiz-Board/)
 
 - Well Designed Interface(UI).
@@ -26,7 +26,7 @@ Here is a working demonstration of this Web page: https://jobsidney.github.io/Qu
 - Switch to multiple pages via links and buttons
 - Responsive to variety of devices like mobile,tablet and PC
 
-## [Installation_Instructions](https://jobsidney.github.io/Quiz-Board/) 
+## [InstallationInstructions](https://jobsidney.github.io/Quiz-Board/) 
 Click on the provided link that will direct you to the website
 #### requirements:
 - chrome browser/any other browser
@@ -101,9 +101,10 @@ finalResults=Math.ceil((results/6)*100)
 - Jobsidney
 - [<img style="border: 1px solid white;" src="./assets/images/job.jpg">](https://github.com/Jobsidney/)
 ***
-
-## license information. 
-
+## license information.
+### The MIT License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+`[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
 
 
 
