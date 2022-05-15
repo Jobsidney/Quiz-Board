@@ -5,7 +5,9 @@ Quiz bord  is a website that Brings a simple tech solution to student. This help
  example:
 <img src="./assets/images/quiz1.png">
 <br  />
-
+## Site:
+Here is a working demonstration of this Web page: https://jobsidney.github.io/Quiz-Board/
+<br  />
 To take the Exam Test Scroll through the page and CLick the `Take your Test` button as Illustrated below:
 <img src="./assets/images/takeTest.png">  
 
@@ -14,8 +16,6 @@ After taking the Test press submit to see your scores and comment of tHE TEST yo
 Example:
 <img src="./assets/images/submit.png">
 <br  />
-## The_Site:
-Here is a working demonstration of this Web page: https://jobsidney.github.io/Quiz-Board/
 
 ## [Features](https://jobsidney.github.io/Quiz-Board/)
 
@@ -99,7 +99,7 @@ finalResults=Math.ceil((results/6)*100)
 ```
 ## PROJECT AUTHOR
 - Jobsidney
-- [<img style="border: 1px solid white;" src="./assets/images/job.jpg">](https://github.com/Jobsidney/)
+- [<img style="border: 1px solid white;" src="./assets/images/job.png">](https://github.com/Jobsidney/)
 ***
 ## license information.
 ### The MIT License
