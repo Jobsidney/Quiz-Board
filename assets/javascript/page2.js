@@ -1,45 +1,30 @@
 
 
-
-// function doResults() {
-//     document.getElementById('outResults').innerHTML=23;
-    
-// }
-
-// function doResults() {
-//     for (let i = 0;i<6;i++) {
-//         if (document.getElementsByName('Answ${i}'===true)){
-//             checkedBox.push(true);         
-//         } 
-        
-//     }
-    
-// }
-
 function doResults(){
     var results=0;
     if(document.getElementById('a').checked){
         results++;
     }
-    if(document.getElementById('f').checked){
+    if(document.getElementById('g').checked){
         results++;
     }
-    if(document.getElementById('k').checked){
+    if(document.getElementById('j').checked){
         results++;
     }
-    if(document.getElementById('p').checked){
+    if(document.getElementById('l').checked){
         results++;
     }
     if(document.getElementById('q').checked){
         results++;
     }
-    if(document.getElementById('s').checked){
+    if(document.getElementById('u').checked){
         results++;
     }
     
     finalResults=Math.ceil((results/6)*100)
     var display;
     output();
+    
     function output(){
         if (finalResults>=80) {
             display=(' '+ finalResults + '%'+" "+"Excellent")
