@@ -3,11 +3,11 @@
 ## DESCRIPTION
 Quiz bord  is a website that Brings a simple tech solution to student. This helps them Learn programming languages and Taking Exam questions to test their learning progress. The website is well design and user friendly ranging from design, color and the logic part that is implemented with Javascript(calculation of marks).
  example:
-<img src="../Quiz-board/assets/images/quiz1.png">
+<img src="./Quiz-board/assets/images/quiz1.png">
 
 ## PROJECT AUTHOR
 - Jobsidney
-- [<img style="border: 1px solid white;" src="../Quiz-board/assets/images/job.png">](https://github.com/Jobsidney/)
+- [<img style="border: 1px solid white;" src="./Quiz-board/assets/images/job.png">](https://github.com/Jobsidney/)
 ***
 
 ## Technologies Used
