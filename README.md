@@ -4,16 +4,16 @@
 Quiz bord  is a website that Brings a simple tech solution to student. This helps them Learn programming languages and Taking Exam questions to test their learning progress. The website is well design and user friendly ranging from design, color and the logic part that is implemented with Javascript(calculation of marks).
  example:
 <img src="./assets/images/quiz1.png">
-<br />
+<br  />
 
 To take the Exam Test Scroll through the page and CLick the `Take your Test` button as Illustrated below:
-<img src="./assets/images/takeTest.png">
-<br />
+<img src="./assets/images/takeTest.png">  
 
+<br  />
 After taking the Test press submit to see your scores and comment of tHE TEST you've taken.
 Example:
 <img src="./assets/images/submit.png">
-<br />
+<br  />
 ## The Site:
 Here is a working demonstration of this Web page: https://jobsidney.github.io/Quiz-Board/
 ***
@@ -50,7 +50,53 @@ The process below will enable you make contribution to this website for a better
 - Incoperate JQuery,Nodejs
 - Add Animated background
 
-***
+### Program Sample
+#### Html code
+```Html
+  <section id="examSec">
+        <div class="examText">
+            Try Our online Programming Test. <br>Happy coding...
+        </div>
+        <div class="btn2">
+            <a href="./assets/html/page2.html" target="_self">
+                Take Test Now
+            </a>
+        </div>
+    </section>
+```
+
+#### Css
+    Example of Css with media query for responsiveness
+```Css
+/* Phones */
+@media screen and (max-width:700px) {
+    #Logo{
+        padding-top: 15px;
+        border-radius: 30px 0px 30px 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #162959;
+        color: white;
+        font-weight: bolder;
+        box-shadow: 2px 2px 3px 3px #162959;
+        font-family: Poppins;
+    }
+```
+#### JavaScript
+Example of working javascript code
+```Javascript
+finalResults=Math.ceil((results/6)*100)
+    var display;
+    output();
+    function output(){
+        if (finalResults>=80) {
+            display=(' '+ finalResults + '%'+" "+"Excellent")
+            
+        }
+        else if(finalResults>=50){
+            display=(' '+ finalResults + '%'+" "+"Fair")
+        }
+```
 ## PROJECT AUTHOR
 - Jobsidney
 - [<img style="border: 1px solid white;" src="./assets/images/job.jpg">](https://github.com/Jobsidney/)
