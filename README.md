@@ -8,11 +8,12 @@ Quiz bord  is a website that Brings a simple tech solution to student. This help
 ## Site:
 Here is a working demonstration of this Web page: https://jobsidney.github.io/Quiz-Board/
 <br  />
+
 To take the Exam Test Scroll through the page and CLick the `Take your Test` button as Illustrated below:
 <img src="./assets/images/takeTest.png">  
 
 <br  />
-After taking the Test press submit to see your scores and comment of tHE TEST you've taken.
+After taking the Test press submit to see your scores and comment of the TEST you've taken.
 Example:
 <img src="./assets/images/submit.png">
 <br  />
@@ -82,8 +83,8 @@ The process below will enable you make contribution to this website for a better
         font-family: Poppins;
     }
 ```
-#### JavaScript
-Example of working javascript code
+#### Javascript
+    Example of working javascript code
 ```Javascript
 finalResults=Math.ceil((results/6)*100)
     var display;
@@ -101,6 +102,7 @@ finalResults=Math.ceil((results/6)*100)
 - Jobsidney
 - [<img style="border: 1px solid white;" src="./assets/images/job.png">](https://github.com/Jobsidney/)
 ***
+
 ## license information.
 ### The MIT License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
